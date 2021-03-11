@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function HeaderContent() {
     return (
         <div>
-            <Carousel>
+            <Carousel fade="true" interval="3000">
                 <Carousel.Item>
                     <img className="d-block w-100" src="/images/work/p1.jpg" 
                     alt="Image one" style={{height: "100vh"}}
