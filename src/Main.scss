@@ -57,10 +57,19 @@ body {
           }
       }
    }
-
-
 }
 
+#hero::after {
+	/* to create the overlay on top of our about section */
+	content: "";
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.4;
+}
 
 
 
