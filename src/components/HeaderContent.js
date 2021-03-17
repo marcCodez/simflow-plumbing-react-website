@@ -4,10 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function HeaderContent() {
     return (
         <header id="header-container">
-              <div className="quote">
-            <h1>GET A QUOTE</h1>
-            <h1>GET A QUOTE</h1>
-            </div>
+           
             <Carousel id="header-carousel"  interval="3000">
 
                 <Carousel.Item style={{'height':"900px"}}>
@@ -35,7 +32,10 @@ function HeaderContent() {
             
             </Carousel>
 
-          
+             <div className="quote">
+            <h1>GET A QUOTE</h1>
+            <h1>GET A QUOTE</h1>
+            </div>
       
         </header>
     )

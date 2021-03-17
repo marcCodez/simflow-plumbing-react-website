@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
         <div className="footer-container">
-            <p>Marc Pulumbarit © 2021</p>
+            <p>© 2021</p>
             <a 
             src="https://www.facebook.com/Simflowplumbing0/">
                 <i className='fa fa-facebook-square'/>

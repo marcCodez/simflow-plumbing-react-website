@@ -59,34 +59,47 @@ body {
    }
 }
 
- #header-container {
-    .quote h1 {
-        color:#fff;
-        position:absolute;
-        z-index:1;
-        top:80%;
-        left:0;
-        width:100%;
-        text-align:center;
-    }
 
+
+ #header-container {
+    height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+	justify-content: center;
+
+    .quote{
+        color:#fff;
+        position:fixed;
+
+    //    display: flex;
+    //    justify-content: center;
+    //     width:100%;
+    //     text-align:center;
+    }
+    #header-carousel {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    
+    
+        &:after {
+            /* to create the overlay on top of our about section */
+            content: "";
+            background-color: black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.4;
+        }
+    }
     
 
-    #header-carousel {
 
-
-    &:after {
-        /* to create the overlay on top of our about section */
-        content: "";
-        background-color: black;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 0.4;
-    }
-}
  
 }
 
