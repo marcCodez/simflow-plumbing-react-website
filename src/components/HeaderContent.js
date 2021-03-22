@@ -32,10 +32,12 @@ function HeaderContent() {
             
             </Carousel>
 
-             <div className="quote">
-            <h1>GET A QUOTE</h1>
-            <h1>GET A QUOTE</h1>
-            </div>
+
+            <a>
+                <span>Get A Quote</span>
+                <div className="liquid"></div>
+                </a>
+          
       
         </header>
     )
