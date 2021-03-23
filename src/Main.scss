@@ -69,21 +69,26 @@ body {
 	object-fit: contain;
 	justify-content: center;
 
-    a{
+    .quote-button{
         position: relative;
-       padding: 1.2rem 3rem;
+       padding: 20px 50px;
        display: block;
        text-decoration: none;
        text-transform: uppercase;
        width: 200px;
        overflow: hidden;
+       cursor:pointer;
+     
        
-       span { 
+       .quote-text { 
            position: relative;
            z-index: 1;
            color: #fff;
-           font-size: 1rem;
-           letter-spacing: 0.5rem;
+           font-size: 18px;
+           
+   
+           
+           
        }
 
        &:hover .liquid {
@@ -97,7 +102,7 @@ body {
            width: 200px;
            height: 200px;
            background: $main-color;
-           box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+           box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
            transition: 0.5s;
 
            &:before,

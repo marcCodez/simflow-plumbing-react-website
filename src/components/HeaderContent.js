@@ -33,8 +33,8 @@ function HeaderContent() {
             </Carousel>
 
 
-            <a>
-                <span>Get A Quote</span>
+            <a className="quote-button">
+                <span className="quote-text">Get Quote</span>
                 <div className="liquid"></div>
                 </a>
           
