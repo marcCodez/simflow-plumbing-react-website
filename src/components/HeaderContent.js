@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
-import Footer from './Footer'
+import Footer from './Footer';
 
 function HeaderContent() {
     return (
@@ -33,11 +34,12 @@ function HeaderContent() {
             
             </Carousel>
 
-
+        <Link to="/contact">
             <a className="quote-button">
                 <span className="quote-text">Get Quote</span>
                 <div className="liquid"></div>
                 </a>
+                </Link>
           
       
         </header>
