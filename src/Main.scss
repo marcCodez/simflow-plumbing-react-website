@@ -70,7 +70,7 @@ body {
 	justify-content: center;
 
     .quote-button{
-        position: relative;
+        position: fixed;
        padding: 20px 50px;
        display: block;
        text-decoration: none;
@@ -85,6 +85,7 @@ body {
            z-index: 1;
            color: #fff;
            font-size: 18px;
+     
            
    
            
@@ -158,10 +159,22 @@ body {
         }
     }
     
-
-
- 
 }
+
+.footer-container {
+    background: black;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    margin-top: auto;
+    z-index: 2;
+}
+
+.app-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 
 
 
