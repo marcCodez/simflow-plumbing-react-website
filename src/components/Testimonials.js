@@ -8,7 +8,7 @@ function Testimonials() {
             <div className="underline"></div>
 
             <div className="row">
-            <div className="col">
+            <div className="test-col">
             <div className="testimonial">
               <div className="name">Sandra</div>
               <div className="stars">
@@ -25,7 +25,7 @@ function Testimonials() {
             </div>
           </div>
 
-          <div className="col">
+          <div className="test-col">
             <div className="testimonial">
               <div className="name">Daniel</div>
               <div className="stars">
@@ -42,7 +42,7 @@ function Testimonials() {
             </div>
           </div>
 
-          <div className="col">
+          <div className="test-col">
             <div className="testimonial">
               <div className="name">Anthony</div>
               <div className="stars">

@@ -34,7 +34,7 @@ function HeaderContent() {
             
             </Carousel>
 
-        <Link to="/contact">
+        <Link to="/contact" style={{ textDecoration: 'none' }}>
             <a className="quote-button">
                 <span className="quote-text">Get Quote</span>
                 <div className="liquid"></div>

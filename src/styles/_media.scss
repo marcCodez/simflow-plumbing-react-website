@@ -5,4 +5,16 @@
             top:66%;
         }
 }
+
+    .test-col{
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .test-col{ 
+        flex: 100%; 
+        max-width: 100%;
+    }
 }
