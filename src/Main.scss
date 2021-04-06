@@ -221,6 +221,10 @@ body {
 
 
 // Footer
+.footershortcut-container {
+    z-index: 2;
+    background-color: white;
+}
 .footer-container {
     background: black;
     padding: 0.5rem 2rem;
