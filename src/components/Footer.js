@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
         <FooterShortcut/>
-        <div className="footer-container">
+        <footer className="footer-container">
             <p>© Copyright 2021 | All Rights Reserved</p>
             {/* <a 
             src="https://www.facebook.com/Simflowplumbing0/">
@@ -13,7 +13,7 @@ function Footer() {
              </a> */}
             <p className="abn">ABN 71 236 584 323</p>
             
-        </div>
+        </footer>
         </>
     )
 }

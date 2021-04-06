@@ -224,6 +224,45 @@ body {
 .footershortcut-container {
     z-index: 2;
     background-color: white;
+    display: grid;
+    grid-template-areas: 
+        "logo header1 header2"
+        "about links contact"
+        "about links social"
+    ;
+
+
+    .logo-black {
+        grid-area: logo;
+        height: 60px;
+        width: 280px;
+    }
+
+    .footer-about {
+        grid-area: about;
+        width: 470px;
+    }
+    .links-header {
+        grid-area: header1;
+    }
+
+    .useful-links {
+        grid-area: links;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-header{
+        grid-area: header2;
+    }
+
+    .footer-contact{
+        grid-area: contact;
+    }
+
+    .socials {
+        grid-area: social;
+    }
 }
 .footer-container {
     background: black;
