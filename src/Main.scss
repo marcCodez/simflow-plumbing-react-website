@@ -223,7 +223,7 @@ body {
 // Footer
 .footershortcut-container {
     z-index: 2;
-    background-color: white;
+    background-color: #DCDCDC;
     display: grid;
     grid-template-areas: 
         "logo header1 header2"
@@ -232,36 +232,80 @@ body {
     ;
 
 
+
     .logo-black {
         grid-area: logo;
         height: 60px;
         width: 280px;
+        align-self: center;
+		justify-self: center;
+        margin: 0.5rem 0 0.5rem 0;
+       
+        
     }
 
     .footer-about {
         grid-area: about;
-        width: 470px;
+        width: 500px;
+        align-self: center;
+		justify-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.6rem;
     }
+  
     .links-header {
         grid-area: header1;
+        align-self: center;
+		justify-self: center;
     }
 
     .useful-links {
         grid-area: links;
         display: flex;
         flex-direction: column;
+        align-self: start;
+		justify-self: center;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: black;
+            margin-bottom: 1rem;
+        }
+
+      
     }
+
+
 
     .contact-header{
         grid-area: header2;
+        align-self: center;
+		justify-self: center;
     }
 
     .footer-contact{
         grid-area: contact;
+        align-self: start;
+		justify-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
     }
 
     .socials {
         grid-area: social;
+        align-self: center;
+		justify-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 .footer-container {
