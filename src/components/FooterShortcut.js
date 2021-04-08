@@ -12,9 +12,9 @@ function FooterShortcut() {
             We strive to deliver constant and impressive results for our clients, this is through continued training and growth of our workers. We are dedicated to continue our knowledge and skills with the often changes to the plumbing industries technology, rules
             and codes of practice.</p>
 
-            <h3 className="links-header">Useful Links</h3>
+            <h4 className="links-header">Useful Links</h4>
             <div className="useful-links">
-            <Link >Home</Link>
+            <Link>Home</Link>
             <Link>About</Link>
             <Link>Services</Link>
             <Link>Promotions</Link>
@@ -22,7 +22,7 @@ function FooterShortcut() {
             </div>
             
           
-            <h3 className="contact-header">Get In Touch</h3>
+            <h4 className="contact-header">Get In Touch</h4>
             <div className="footer-contact">
             <p>Nicholas Simler | Founder</p>
        <p> <span> <i className='fa fa-phone'/> </span> 0406 300 310</p>
@@ -30,7 +30,7 @@ function FooterShortcut() {
             </div>
 
             <div className="socials">
-            <h3 className="">Social Media</h3>
+            <h4 className="">Social Media</h4>
             <a 
                     className='socials-link'
                     href='https://www.facebook.com/Simflowplumbing0'

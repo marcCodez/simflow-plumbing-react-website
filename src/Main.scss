@@ -230,7 +230,11 @@ body {
         "about links contact"
         "about links social"
     ;
-
+    
+    h4 {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
 
 
     .logo-black {
@@ -253,6 +257,7 @@ body {
         justify-content: center;
         align-items: center;
         line-height: 1.6rem;
+        font-size: 0.8rem;
     }
   
     .links-header {
@@ -272,8 +277,13 @@ body {
 
         a {
             text-decoration: none;
-            color: black;
-            margin-bottom: 1rem;
+            color: $main-color;
+            margin-bottom: 0.7rem;
+            font-size: 0.9rem;
+
+        &:hover {
+            color: white;
+        }
         }
 
       
@@ -295,6 +305,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 0.8rem;
     
     }
 
