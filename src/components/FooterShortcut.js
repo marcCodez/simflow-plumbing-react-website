@@ -8,9 +8,11 @@ function FooterShortcut() {
         <div className="footershortcut-container">
       
             <img src="/images/logo-black.png" className="logo-black"/>
-            <p className="footer-about">Simflow Plumbing provides a fully licensed and insured 24/7 plumbing service for the greater Sydney region. With over 10 years of experience within the plumbing & gas industry we offer a variety of plumbing services along with friendly and reliable service and honest up front pricing.
-            We strive to deliver constant and impressive results for our clients, this is through continued training and growth of our workers. We are dedicated to continue our knowledge and skills with the often changes to the plumbing industries technology, rules
-            and codes of practice.</p>
+            <p className="footer-about">Simflow Plumbing provides a fully licensed and insured 24/7 plumbing service for the Greater Sydney region. We offer a variety of indoor and outdoor home plumbing services evolving around maintenance, renovations, house extensions and more! 
+
+We have over 10 years of experience in the plumbing & gas industry. We guarantee a friendly and reliable service and are always sure to consider the best interest of you, the customer, in our honest up front pricing.
+
+At Simflow, we are always striving to  learn and improve through continued training and growth of our workers. We are dedicated to the continuous development of our people skills and plumbing knowledge to ensure we make our mark in the ever changing and developing plumbing industry.</p>
 
             <h4 className="links-header">Useful Links</h4>
             <div className="useful-links">

@@ -223,7 +223,7 @@ body {
 // Footer
 .footershortcut-container {
     z-index: 2;
-    background-color: #DCDCDC;
+    background-color: #ccc;
     display: grid;
     grid-template-areas: 
         "logo header1 header2"
@@ -278,8 +278,9 @@ body {
         a {
             text-decoration: none;
             color: $main-color;
-            margin-bottom: 0.7rem;
+            margin-bottom: 1.5rem;
             font-size: 0.9rem;
+            font-weight:bold;
 
         &:hover {
             color: white;
@@ -306,7 +307,16 @@ body {
         justify-content: center;
         align-items: center;
         font-size: 0.8rem;
-    
+        
+        button {
+            padding: 10px 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor:pointer;
+            background-color: $main-color;
+            font-weight: bold;
+           
+        }
     }
 
     .socials {
@@ -317,6 +327,14 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        a i {
+            color: $main-color;
+
+            &:hover {
+                color: white;
+            }
+        }
     }
 }
 .footer-container {
