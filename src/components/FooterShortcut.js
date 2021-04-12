@@ -12,7 +12,7 @@ function FooterShortcut() {
 
 We have over 10 years of experience in the plumbing & gas industry. We guarantee a friendly and reliable service and are always sure to consider the best interest of you, the customer, in our honest up front pricing.
 
-At Simflow, we are always striving to  learn and improve through continued training and growth of our workers. We are dedicated to the continuous development of our people skills and plumbing knowledge to ensure we make our mark in the ever changing and developing plumbing industry.</p>
+</p>
 
             <h4 className="links-header">Useful Links</h4>
             <div className="useful-links">

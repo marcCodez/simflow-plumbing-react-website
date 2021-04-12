@@ -13,7 +13,6 @@ function Navbar() {
                              >Home</NavLink></li>
                             <li><NavLink exact to="about" className="nav-links">About</NavLink></li>
                             <li><NavLink exact to="services" className="nav-links" >Services</NavLink></li>
-                            <li><NavLink exact to="/promotions" className="nav-links" >Promotions</NavLink></li>
                             <li><NavLink exact to="/contact" className="nav-links">Contact</NavLink></li>
                         </ul>
                 </nav>

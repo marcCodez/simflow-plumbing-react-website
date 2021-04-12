@@ -163,6 +163,32 @@ body {
     
 }
 
+// Coupon
+.coupons {
+    display: flex;
+    
+    .coupon {
+        border: 5px dotted white; /* Dotted border */
+        width: 80%;
+        border-radius: 15px; /* Rounded border */
+        max-width: 600px;
+        z-index: 1;
+    
+        img {
+            width: 100%;
+            height: 320px;
+           
+        }
+    
+        .container {
+            padding: 2px 16px;
+            background-color: $main-color;
+          }
+    }
+
+}
+
+
 
 // Testimonials
 .testimonials {
@@ -223,6 +249,7 @@ body {
 // Footer
 .footershortcut-container {
     z-index: 2;
+    padding-bottom: 1rem;
     background-color: #ccc;
     display: grid;
     grid-template-areas: 
@@ -243,7 +270,7 @@ body {
         width: 280px;
         align-self: center;
 		justify-self: center;
-        margin: 0.5rem 0 0.5rem 0;
+        margin: 1.5rem 0 1rem 0;
        
         
     }
@@ -264,23 +291,23 @@ body {
         grid-area: header1;
         align-self: center;
 		justify-self: center;
+        margin: 1.5rem 0 1rem 0;
     }
 
     .useful-links {
         grid-area: links;
         display: flex;
         flex-direction: column;
-        align-self: start;
-		justify-self: center;
+       
         justify-content: center;
         align-items: center;
 
         a {
             text-decoration: none;
-            color: $main-color;
-            margin-bottom: 1.5rem;
-            font-size: 0.9rem;
-            font-weight:bold;
+            color: black;
+            margin-bottom: 1.3rem;
+            font-size: 0.8rem;
+           
 
         &:hover {
             color: white;
@@ -296,6 +323,7 @@ body {
         grid-area: header2;
         align-self: center;
 		justify-self: center;
+        margin: 1.5rem 0 1rem 0;
     }
 
     .footer-contact{
