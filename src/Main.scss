@@ -163,28 +163,57 @@ body {
     
 }
 
-// Coupon
+// Promotions
+.promotions {
+    padding: 2.5rem 0;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+
+    .underline {
+        color: $main-color;
+    }
+
+    .inner {
+        max-width: 1200px;
+        margin: auto;
+        overflow: hidden;
+        padding: 0 1.2rem;
+    }
+
 .coupons {
     display: flex;
+   justify-content: space-evenly;
+    z-index: 1;
+margin-top: 2.5rem;
+
     
     .coupon {
-        border: 5px dotted white; /* Dotted border */
+        border: 5px dotted $main-color; /* Dotted border */
         width: 80%;
         border-radius: 15px; /* Rounded border */
-        max-width: 600px;
+        max-width: 450px;
+      
         z-index: 1;
     
         img {
             width: 100%;
-            height: 320px;
+         
            
         }
     
         .container {
             padding: 2px 16px;
-            background-color: $main-color;
+            background-color: black;
+          
+            h2 {
+                color: $main-color;
+                font-size: 1.5rem;
+            }
           }
     }
+
+}
 
 }
 
