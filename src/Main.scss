@@ -282,35 +282,51 @@ margin-top: 2.5rem;
             "aboutdesc2 aboutimg2"
             "aboutdesc3 aboutimg2"
         ;
-        gap: 0.5rem;
+        gap: 0.7rem;
     }
 
     //Grid Area
     .heading {
         grid-area: heading;
+        align-self: start;
+		justify-self: center;
     }
 
     .about-image {
         grid-area: aboutimg;
         height: 300px;
         width: 300px;
+        justify-self: center;
+        align-self: start;
     }
     .about-image-2 {
         grid-area: aboutimg2;
         height: 300px;
         width: 300px;
+        justify-self: center;
+        align-self: start;
     }
 
     .about-description {
         grid-area: aboutdesc;
+        width: 30rem;
+        align-self: start;
+		justify-self: center;
+
     }
 
     .about-description-2 {
         grid-area: aboutdesc2;
+        width: 30rem;
+        align-self: start;
+		justify-self: center;
     }
 
     .about-description-3 {
         grid-area: aboutdesc3;
+        width: 30rem;
+        align-self: start;
+		justify-self: center;
     }
 }
 
@@ -439,7 +455,6 @@ margin-top: 2.5rem;
 }
 .footer-container {
     background: black;
-    padding: 0.5rem 2rem;
     display: flex;
     margin-top: auto;
     z-index: 2;
