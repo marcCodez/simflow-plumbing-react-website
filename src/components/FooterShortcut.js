@@ -6,7 +6,6 @@ function FooterShortcut() {
         <>
           
         <div className="footershortcut-container">
-      
             <img src="/images/logo-black.png" className="logo-black"/>
             <p className="footer-about">Simflow Plumbing provides a fully licensed and insured 24/7 plumbing service for the Greater Sydney region. We offer a variety of indoor and outdoor home plumbing services evolving around maintenance, renovations, house extensions and more! 
 

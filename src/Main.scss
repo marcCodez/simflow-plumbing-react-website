@@ -165,10 +165,10 @@ body {
 
 // Promotions
 .promotions {
-    padding: 2.5rem 0;
+  
     background-color: white;
     z-index: 1;
-    text-align: center;
+    
 
     .underline {
         color: $main-color;
@@ -271,6 +271,49 @@ margin-top: 2.5rem;
         }
     }
 }
+
+// About Page
+#about {
+    .about-info {
+        display: grid;
+        grid-template-areas: 
+            "heading aboutimg"
+            "aboutdesc aboutimg"
+            "aboutdesc2 aboutimg2"
+            "aboutdesc3 aboutimg2"
+        ;
+        gap: 0.5rem;
+    }
+
+    //Grid Area
+    .heading {
+        grid-area: heading;
+    }
+
+    .about-image {
+        grid-area: aboutimg;
+        height: 300px;
+        width: 300px;
+    }
+    .about-image-2 {
+        grid-area: aboutimg2;
+        height: 300px;
+        width: 300px;
+    }
+
+    .about-description {
+        grid-area: aboutdesc;
+    }
+
+    .about-description-2 {
+        grid-area: aboutdesc2;
+    }
+
+    .about-description-3 {
+        grid-area: aboutdesc3;
+    }
+}
+
 
 
 

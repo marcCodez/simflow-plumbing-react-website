@@ -3,8 +3,8 @@ import Coupon from './Coupon';
 
 function Promotions() {
     return (
-        <div className="promotions">
-            <div className="inner">
+        <div className="promotions text-center py-3" >
+            <div className="container">
         <h1 className="heading">Promotions</h1>
         <div className="underline-b"></div>
 
