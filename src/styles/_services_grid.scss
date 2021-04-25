@@ -2,9 +2,10 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     box-shadow: 0 0.3125rem 0.625rem 0 rgba(0, 0, 0, 0.3);
+
+    .service {
+        position: relative;
+        overflow: hidden;
+    }
 }
 
-.service {
-    position: relative;
-    overflow: hidden;
-}
