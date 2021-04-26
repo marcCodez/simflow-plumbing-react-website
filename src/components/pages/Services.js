@@ -1,180 +1,161 @@
 import React from 'react'
+import Card from 'react-bootstrap/Card'
 
 function Services() {
     return (
-        <section className="services-container">
+        <section className="services-container text-center py-5">
             <div className="container">
-                <div className="heading">
+               
             <h1>Our Services</h1>
             <div className="underline-b"></div>
-            </div>
+         
             <div className="services">
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                    <Card>
+                        <Card.Img className="card-img"  src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
-                    <div className="service-text">
-                        <h2>Same day services </h2>
-                    </div>
-                        <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                        <Card.Body> 
+                    <Card.Text>
+                        Same day services
+                    </Card.Text>
+                    </Card.Body>
+                    </Card>
+                        <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>Leaking pipes  </h2>
+                        <h4>Leaking pipes  </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>All Gas Works </h2>
+                        <h4>All Gas Works </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>Burst pipes </h2>
+                        <h4>Burst pipes </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>Blocked Drains </h2>
+                        <h4>Blocked Drains </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                <Card>
+                        <Card.Img className="card-img" variant="top" src="/images/services/cctv.jpg
                         " alt="" />
-                    </div>
+                        <Card.Body> 
+                    <Card.Text>
+                        CCTV Camera Inspections
+                    </Card.Text>
+                    </Card.Body> 
+                </Card>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
+                        </div>
+              </div>
+                <div className="service">
+                        <img className="service-image" src="/images/work/p5.jpg
+                        " alt="" />
                     <div className="service-text">
-                        <h2>CCTV Camera Inspections </h2>
+                        <h4>Bathroom and Kitchen Renovations </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>Bathroom and Kitchen Renovations </h2>
+                        <h4>Hot Water System Repairs and Replacements </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>Hot Water System Repairs and Replacements </h2>
+                        <h4>Roof leaks </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>Roof leaks </h2>
+                        <h4>Free quotes </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>Free quotes </h2>
+                        <h4>$0 call out fee </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>$0 call out fee </h2>
+                        <h4>Leaking taps </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>Leaking taps </h2>
+                        <h4>Leaking toilets </h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
+                        <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
-                    </div>
                     <div className="service-text">
-                        <h2>Leaking toilets </h2>
+                        <h4>Leaking showers</h4>
                     </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
-                        </div>
-                </div>
-                <div className="service">
-                    <div className="service-image">
-                        <img src="/images/work/p5.jpg
-                        " alt="" />
-                    </div>
-                    <div className="service-text">
-                        <h2>Leaking showers</h2>
-                    </div>
-                    <div className="service-overlay">
-                            <p>TAP TO BOOK NOW</p>
+                    <div className="service-overlay color-overlay">
+                            <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
 
