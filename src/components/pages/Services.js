@@ -12,7 +12,7 @@ function Services() {
             <div className="services">
                 <div className="service">
                     <Card>
-                        <Card.Img className="card-img"  src="/images/work/p5.jpg
+                        <Card.Img className="card-img" variant="top"  src="/images/work/p5.jpg
                         " alt="" />
                         <Card.Body> 
                     <Card.Text>
@@ -71,6 +71,7 @@ function Services() {
                         <Card.Body> 
                     <Card.Text>
                         CCTV Camera Inspections
+                    
                     </Card.Text>
                     </Card.Body> 
                 </Card>
@@ -83,21 +84,24 @@ function Services() {
                         " alt="" />
                     <div className="service-text">
                         <h4>Bathroom and Kitchen Renovations </h4>
+                   
                     </div>
                     <div className="service-overlay color-overlay">
                             <div className="book-now">TAP TO BOOK NOW</div>
                         </div>
                 </div>
                 <div className="service">
-                        <img className="service-image" src="/images/work/p5.jpg
+                <Card>
+                        <Card.Img className="card-img" variant="top" src="/images/services/cctv.jpg
                         " alt="" />
-                    <div className="service-text">
-                        <h4>Hot Water System Repairs and Replacements </h4>
-                    </div>
-                    <div className="service-overlay color-overlay">
-                            <div className="book-now">TAP TO BOOK NOW</div>
-                        </div>
+                        <Card.Body> 
+                    <Card.Text>
+                    Hot Water System Repairs and Replacements 
+                    </Card.Text>
+                    </Card.Body> 
+                </Card>
                 </div>
+               
                 <div className="service">
                         <img className="service-image" src="/images/work/p5.jpg
                         " alt="" />
