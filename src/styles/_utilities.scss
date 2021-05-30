@@ -23,6 +23,12 @@
 	text-align: center;
 }
 
+.btn-primary {
+	color: #fff;
+	background-color: $main-color !important;
+	border-color: $main-color !important;
+}
+
 // Padding
 .py {
 	&-1 {

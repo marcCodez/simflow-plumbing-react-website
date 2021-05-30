@@ -1,6 +1,10 @@
 @import "styles/config";
 @import "styles/utilities";
 @import "styles/services_grid";
+// @import "~bootstrap/scss/breakpoints";
+// @import "~bootstrap/scss/functions";
+// @import "~bootstrap/scss/variables";
+// @import "~bootstrap/scss/mixins";
 
 
 // General styles
@@ -39,7 +43,7 @@ body {
     // display: flex;
      position: sticky;
      top: 0;
-  
+    z-index: 100;
     // height: 120px;
     // justify-content: space-between;
     // align-items: center;
@@ -157,6 +161,13 @@ body {
         height: 100%;
         position: fixed;
    
+        .carousel-pic {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+
+        }
        
     
     
@@ -176,58 +187,47 @@ body {
 }
 
 // Promotions
+
 .promotions {
-  
+    padding: 2.5rem 0;
     background-color: white;
     z-index: 1;
+    text-align: center;
     
 
     .underline {
         color: $main-color;
     }
 
-    .inner {
-        max-width: 1200px;
-        margin: auto;
-        overflow: hidden;
-        padding: 0 1.2rem;
-    }
-
-.coupons {
-    display: flex;
-   justify-content: space-evenly;
-    z-index: 1;
-margin-top: 2.5rem;
-
-    
     .coupon {
         border: 5px dotted $main-color; /* Dotted border */
-        width: 80%;
         border-radius: 15px; /* Rounded border */
         max-width: 450px;
-      
         z-index: 1;
+
     
         img {
             width: 100%;
-         
-           
         }
+        
+            
+                .coupon-container {
+                    padding: 2px 16px;
+                    background-color: black;
+                  
+                    h2 {
+                        color: $main-color;
+                        font-size: 1.5rem;
+                    }
+                  }
     
-        .container {
-            padding: 2px 16px;
-            background-color: black;
-          
-            h2 {
-                color: $main-color;
-                font-size: 1.5rem;
-            }
-          }
+    
+    
     }
 
-}
 
 }
+
 
 
 
@@ -239,39 +239,20 @@ margin-top: 2.5rem;
     text-align: center;
     z-index: 1;
 
+    .class-border {
+        border: 5px dotted $main-color;
+    }
+
     .heading {
         color: white;
     }
 
-    .inner {
-        max-width: 1200px;
-        margin: auto;
-        overflow: hidden;
-        padding: 0 1.2rem;
-    }
-
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .test-col {
-        flex: 33.33%;
-        max-width: 33.33%;
-        box-sizing: border-box;
-        padding: 15px;
-    }
-
-    .testimonial {
-        background: #fff;
-        padding: 30px;
-    }    
     
     .name {
         font-size: 1.2rem;
         text-transform: uppercase;
         margin: 1.2rem 0;
+        // font-weight: bold !important;
     }
 
     .stars {
@@ -286,60 +267,24 @@ margin-top: 2.5rem;
 
 // About Page
 #about {
-    .about-info {
-        display: grid;
-        grid-template-areas: 
-            "heading aboutimg"
-            "aboutdesc aboutimg"
-            "aboutdesc2 aboutimg2"
-            "aboutdesc3 aboutimg2"
-        ;
-        gap: 0.7rem;
-    }
-
+  
     //Grid Area
-    .heading {
-        grid-area: heading;
-        align-self: start;
-		justify-self: center;
-    }
+   
 
     .about-image {
-        grid-area: aboutimg;
         height: 300px;
         width: 300px;
-        justify-self: center;
-        align-self: start;
+        margin-bottom: 2rem;
+       
     }
     .about-image-2 {
-        grid-area: aboutimg2;
+       
         height: 300px;
         width: 300px;
-        justify-self: center;
-        align-self: start;
+       
     }
 
-    .about-description {
-        grid-area: aboutdesc;
-        width: 30rem;
-        align-self: start;
-		justify-self: center;
-
-    }
-
-    .about-description-2 {
-        grid-area: aboutdesc2;
-        width: 30rem;
-        align-self: start;
-		justify-self: center;
-    }
-
-    .about-description-3 {
-        grid-area: aboutdesc3;
-        width: 30rem;
-        align-self: start;
-		justify-self: center;
-    }
+  
 }
 
 
@@ -347,16 +292,26 @@ margin-top: 2.5rem;
 
 
 // Footer
+
+
 .footershortcut-container {
-    z-index: 2;
-    padding-bottom: 1rem;
+    z-index: 10;
     background-color: #ccc;
-    display: grid;
-    grid-template-areas: 
-        "logo header1 header2"
-        "about links contact"
-        "about links social"
-    ;
+
+    // display: grid;
+    // grid-template-areas: 
+    //     "logo header1 header2"
+    //     "about links contact"
+    //     "about links social"
+    // ;
+
+    .logo-class {
+        height: 3.5rem;
+        width: 16rem;
+        margin: 1.5rem 0 1rem 0;
+    }
+
+  
     
     h4 {
         font-size: 1.3rem;
@@ -364,50 +319,26 @@ margin-top: 2.5rem;
     }
 
 
-    .logo-black {
-        grid-area: logo;
-        height: 60px;
-        width: 280px;
-        align-self: center;
-		justify-self: center;
-        margin: 1.5rem 0 1rem 0;
-       
-        
-    }
+   
 
     .footer-about {
-        grid-area: about;
         width: 500px;
-        align-self: center;
-		justify-self: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         line-height: 1.6rem;
         font-size: 0.8rem;
     }
   
     .links-header {
-        grid-area: header1;
-        align-self: center;
-		justify-self: center;
         margin: 1.5rem 0 1rem 0;
+        font-size: 1.3rem;
+        font-weight: bold;
     }
 
     .useful-links {
-        grid-area: links;
-        display: flex;
-        flex-direction: column;
-       
-        justify-content: center;
-        align-items: center;
-
         a {
             text-decoration: none;
             color: black;
             margin-bottom: 1.3rem;
             font-size: 0.8rem;
-           
 
         &:hover {
             color: white;
@@ -420,20 +351,10 @@ margin-top: 2.5rem;
 
 
     .contact-header{
-        grid-area: header2;
-        align-self: center;
-		justify-self: center;
         margin: 1.5rem 0 1rem 0;
     }
 
     .footer-contact{
-        grid-area: contact;
-        align-self: start;
-		justify-self: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         font-size: 0.8rem;
         
         button {
@@ -448,14 +369,6 @@ margin-top: 2.5rem;
     }
 
     .socials {
-        grid-area: social;
-        align-self: center;
-		justify-self: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
         a i {
             color: $main-color;
 
@@ -475,14 +388,67 @@ margin-top: 2.5rem;
     color: white;
     padding: 0.5rem 2rem;
 
+    p {
+        margin-bottom: 0 !important;
+    }
+
     .abn {
         margin-left: auto
     }
 
 
+
 }
 
-// Services
+// Contact
+// https://www.youtube.com/watch?v=FBAfpj91hps&ab_channel=ProWebProWeb
+.head {
+    background-color: $main-color;
+    border-radius: 5px;
+    margin-top: -40px;
+}
+
+
+.effect-1 {
+    border: 0 !important;
+    outline: none !important;
+    width: 100% !important;
+    padding: 7px 0 !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.effect-1 ~ .focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: $main-color;
+    transition: 0.4s
+}
+
+.effect-1:focus ~ .focus-border {
+    width: 100%;
+    transition: 0.4s;
+    left:0;
+}
+
+.form-btn {
+    background: $main-color;
+    color: white;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    height: 2.3rem;
+    width: 9rem;
+}
+
+
+
+
+
+
+
 
 
 .app-container {
@@ -495,6 +461,24 @@ margin-top: 2.5rem;
 
 
 
+
+// @include media-breakpoint-up(sm) {
+//     html {
+//       font-size: 1.2rem;
+//     }
+//   }
+  
+//   @include media-breakpoint-up(md) {
+//     html {
+//       font-size: 1.4rem;
+//     }
+//   }
+  
+//   @include media-breakpoint-up(lg) {
+//     html {
+//       font-size: 1.6rem;
+//     }
+//   }
 
 
 

@@ -9,24 +9,24 @@ function HeaderContent() {
            
             <Carousel id="header-carousel"  interval="3000">
 
-                <Carousel.Item style={{'height':"900px"}}>
-                    <img className="d-block w-100" src="/images/work/p1.jpg" 
+                <Carousel.Item className="carousel-pic" >
+                    <img className="d-block w-100" src="/images/work/horiz1.jpeg" 
                     alt="Image one" style={{height: "100%"}}
                     />
                     
                 </Carousel.Item>
-                <Carousel.Item style={{'height':"900px"}}>
-                    <img className="d-block w-100" src="/images/work/p2.jpg" 
+                <Carousel.Item className="carousel-pic">
+                    <img className="d-block w-100" src="/images/work/horiz2.jpeg" 
                     alt="Image one" style={{height: "100%"}}
                     />
                 </Carousel.Item>
-                <Carousel.Item style={{'height':"900px"}}>
-                    <img className="d-block w-100" src="/images/work/p3.jpg" 
+                <Carousel.Item className="carousel-pic">
+                    <img className="d-block w-100" src="/images/work/horiz3.jpeg" 
                     alt="Image two" style={{height: "100%"}}
                     />
                 </Carousel.Item>
-                <Carousel.Item style={{'height':"900px"}}>
-                    <img className="d-block w-100" src="/images/work/p4.jpg" 
+                <Carousel.Item className="carousel-pic">
+                    <img className="d-block w-100" src="/images/work/p2.jpg" 
                     alt="Image three" style={{height: "100%"}}
                     />
                 </Carousel.Item>
