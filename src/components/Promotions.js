@@ -27,7 +27,7 @@ function Promotions() {
                 <Coupon image="/images/plumb1.jpg" discount="20% Off  - Pensioners Discount - 20% Off"/>
                 </Col>
                 <Col className="d-flex justify-content-center" xs={12} md={6}>
-                <Coupon image="/images/plumb2.jpg" discount="Free garden tap replacement on any job over $250 Ts & Cs apply"/>
+                <Coupon image="/images/work/p14.jpeg" discount="Free garden tap replacement on any job over $250 Ts & Cs apply"/>
                 </Col>
             </Row>
             </Container>

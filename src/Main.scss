@@ -219,6 +219,10 @@ body {
                         color: $main-color;
                         font-size: 1.5rem;
                     }
+
+                    .enquire-buttton {
+                        margin: 2rem 0;
+                    }
                   }
     
     
@@ -308,14 +312,15 @@ body {
     .logo-class {
         height: 3.5rem;
         width: 16rem;
-        margin: 1.5rem 0 1rem 0;
+        margin-bottom: 2rem;
     }
 
   
     
-    h4 {
+    .footer-heading {
         font-size: 1.3rem;
         font-weight: bold;
+        margin-bottom: 1.5rem;
     }
 
 
@@ -327,11 +332,6 @@ body {
         font-size: 0.8rem;
     }
   
-    .links-header {
-        margin: 1.5rem 0 1rem 0;
-        font-size: 1.3rem;
-        font-weight: bold;
-    }
 
     .useful-links {
         a {
@@ -348,11 +348,6 @@ body {
       
     }
 
-
-
-    .contact-header{
-        margin: 1.5rem 0 1rem 0;
-    }
 
     .footer-contact{
         font-size: 0.8rem;
@@ -416,6 +411,8 @@ body {
     padding: 7px 0 !important;
     border-bottom: 1px solid #ccc !important;
 }
+
+ 
 
 .effect-1 ~ .focus-border {
     position: absolute;

@@ -4,7 +4,7 @@ import { Container, Card, Row, Col, Form, Button} from 'react-bootstrap';
 function Contact() {
     return (
         <>
-        <section class="contact">
+        <section id="contact">
             <Container fluid>
                 <Container className="py-5">
                 <Row>
@@ -19,25 +19,30 @@ function Contact() {
                                 </Col>
                             </Row>
                             <Form className="p-3">
+                            <p className="text-center font-weight-bold">Alternatively call Nicholas on 0406 300 310</p>
                             <Form.Row className="my-5">
                                 <Col lg={6}>
-                                <Form.Control className="effect-1" type="text" placeholder="First name" />
+                                <Form.Control required className="effect-1" type="text" placeholder="Full name*" />
                                 <span className="focus-border"></span>
                                 </Col>
                                 <Col lg={6}>
-                                <Form.Control className="effect-1" placeholder="Last name" />
+                                <Form.Control required className="effect-1" type="tel" placeholder="Phone Number*" />
                                 <span className="focus-border"></span>
                                 </Col>
                                 </Form.Row>
                                 <Form.Row className="pb-4">
-                                    <Col lg={12}>
-                                    <Form.Control className="effect-1" type="email" placeholder="Email Address" />
-                                    <span className="focus-border"></span>
-                                    </Col>
+                                <Col lg={6}>
+                                <Form.Control required className="effect-1" type="email" placeholder="Email Address*" />
+                                <span className="focus-border"></span>
+                                </Col>
+                                <Col lg={6}>
+                                <Form.Control required className="effect-1" type="text" placeholder="Suburb*" />
+                                <span className="focus-border"></span>
+                                </Col>
                                 </Form.Row>
                                 <Form.Row className="pt-5">
                                     <Col lg={12}>
-                                    <Form.Control className="effect-1" type="email" placeholder="Your Message" />
+                                    <Form.Control className="effect-1" as="textarea" rows={3} placeholder="Type Your Message"/>
                                     <span className="focus-border"></span>
                                     </Col>
                                 </Form.Row>

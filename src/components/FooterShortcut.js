@@ -5,8 +5,8 @@ import { Container, Row, Col} from 'react-bootstrap';
 function FooterShortcut() {
     return (
         <>
-
-        <Container fluid className="footershortcut-container">
+<section className="footershortcut-container py-5">
+        <Container fluid >
             <Row>
                 <Col xs={12}  md={12} lg={6}>
                 {/* Logo and short description */}
@@ -25,7 +25,7 @@ We have over 10 years of experience in the plumbing & gas industry. We guarantee
                 </Col>
                 <Col xs={12} md={12} lg={3}>
                 {/* Quick Links */}
-                    <h4 className="links-header text-center">Useful Links</h4>
+                    <h4 className="footer-heading text-center">Useful Links</h4>
                     <div className="useful-links d-flex flex-column justify-content-center align-items-center">
                     <Link>Home</Link>
                     <Link>About</Link>
@@ -36,15 +36,15 @@ We have over 10 years of experience in the plumbing & gas industry. We guarantee
                 </Col>
                 <Col xs={12} md={12} lg={3}>
                 {/* Contact and socials */}
-                    <h4 className="contact-header text-center">Get In Touch</h4>
-                <div className="footer-contact d-flex flex-column justify-content-center align-items-center">
+                    <h4 className="footer-heading text-center">Get In Touch</h4>
+                <div className="footer-contact d-flex flex-column justify-content-center align-items-center mb-4">
                             <p>Nicholas Simler | Founder</p>
                     <p> <span> <i className='fa fa-phone'/> </span> 0406 300 310</p>
                             <button className="book-now">Book Now</button>
                 </div>
 
                 <div className="socials d-flex flex-column justify-content-center align-items-center">
-                <h4 className="text-center contact-header">Social Media</h4>
+                <h4 className="footer-heading text-center">Social Media</h4>
                 <a 
                         className='socials-link'
                         href='https://www.facebook.com/Simflowplumbing0'
@@ -60,7 +60,7 @@ We have over 10 years of experience in the plumbing & gas industry. We guarantee
            
         </Container>
           
-
+        </section>
 
 
             

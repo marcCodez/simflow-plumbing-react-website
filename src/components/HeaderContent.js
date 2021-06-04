@@ -20,11 +20,7 @@ function HeaderContent() {
                     alt="Image one" style={{height: "100%"}}
                     />
                 </Carousel.Item>
-                <Carousel.Item className="carousel-pic">
-                    <img className="d-block w-100" src="/images/work/horiz3.jpeg" 
-                    alt="Image two" style={{height: "100%"}}
-                    />
-                </Carousel.Item>
+
                 <Carousel.Item className="carousel-pic">
                     <img className="d-block w-100" src="/images/work/p2.jpg" 
                     alt="Image three" style={{height: "100%"}}
