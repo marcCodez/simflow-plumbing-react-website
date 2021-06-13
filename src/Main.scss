@@ -18,7 +18,7 @@
 }
 
 body {
-    background: $main-color;
+    background: '#fff';
 }
 
 // Logo
@@ -77,84 +77,15 @@ body {
 
 
  #header-container {
-    height: 100vh;
-	width: 100%;
+    // height: 100vh;
+	// width: 100%;
 	display: flex;
 	align-items: center;
 	object-fit: contain;
 	justify-content: center;
     
 
-    .quote-button{
-        position: relative;
-       padding: 20px 50px;
-       display: block;
-       text-decoration: none;
-       text-transform: uppercase;
-       width: 200px;
-       overflow: hidden;
-       cursor:pointer;
-     
-       
-       .quote-text { 
-           position: relative;
-           z-index: 1;
-           color: #fff;
-           font-size: 18px;
-     
-           
    
-           
-           
-       }
-
-       &:hover .liquid {
-        top: -120px;
-       }
-
-       & .liquid {
-           position: absolute;
-           left: 0;
-           top: -80px;
-           width: 200px;
-           height: 200px;
-           background: $main-color;
-           box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
-           transition: 0.5s;
-
-           &:before,
-           &:after {
-               content: '';
-               position: absolute;
-               width: 200%;
-               height: 200%;
-               top: 0;
-               left: 50%;
-               transform: translate(-50%, -75%);
-           }
-
-           &:before {
-               border-radius: 45%;
-               background: rgba(20,20,20,1);
-               animation: animate 5s linear infinite;
-           }
-           &:after {
-            border-radius: 40%;
-            background: rgba(20,20,20,0.5);
-            animation: animate 10s linear infinite;
-           }
-
-           @keyframes animate {
-            0%{
-                transform: translate(-50%, -75%) rotate(0deg);
-            }
-            100%{
-                transform: translate(-50%, -75%) rotate(360deg);
-            }
-           }
-       }
-
-    }
     #header-carousel {
         object-fit: cover;
         width: 100%;
@@ -184,6 +115,79 @@ body {
         }
     }
     
+}
+
+.quote-button{
+ position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 99;
+    text-transform: uppercase;
+    width: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 12px 41px;
+    transform: translate(-50%, -50%);
+ 
+   
+   .quote-text { 
+       position: relative;
+       z-index: 1;
+       color: #fff;
+       font-size: 18px;
+ 
+       
+
+       
+       
+   }
+
+   &:hover .liquid {
+    top: -120px;
+   }
+
+   & .liquid {
+       position: absolute;
+       left: 0;
+       top: -80px;
+       width: 200px;
+       height: 200px;
+       background: $main-color;
+       box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+       transition: 0.5s;
+
+       &:before,
+       &:after {
+           content: '';
+           position: absolute;
+           width: 200%;
+           height: 200%;
+           top: 0;
+           left: 50%;
+           transform: translate(-50%, -75%);
+       }
+
+       &:before {
+           border-radius: 45%;
+           background: rgba(20,20,20,1);
+           animation: animate 5s linear infinite;
+       }
+       &:after {
+        border-radius: 40%;
+        background: rgba(20,20,20,0.5);
+        animation: animate 10s linear infinite;
+       }
+
+       @keyframes animate {
+        0%{
+            transform: translate(-50%, -75%) rotate(0deg);
+        }
+        100%{
+            transform: translate(-50%, -75%) rotate(360deg);
+        }
+       }
+   }
+
 }
 
 // Promotions

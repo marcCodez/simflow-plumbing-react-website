@@ -5,9 +5,9 @@ import Footer from './Footer';
 
 function HeaderContent() {
     return (
-        <header id="header-container">
+ <header id=""> 
            
-            <Carousel id="header-carousel"  interval="3000">
+            {/* <Carousel id="header-carousel"  interval="3000">
 
                 <Carousel.Item className="carousel-pic" >
                     <img className="d-block w-100" src="/images/work/horiz1.jpeg" 
@@ -35,10 +35,55 @@ function HeaderContent() {
                 <span className="quote-text">Get Quote</span>
                 <div className="liquid"></div>
                 </a>
-                </Link>
+                </Link> */}
+
+<Carousel id="header-carousel" fade>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/images/work/horiz1.jpeg"
+      alt="First slide"
+    />
+    <Link  className="quote-button"to="/contact" style={{ textDecoration: 'none' }}>
+           
+                <span className="quote-text">Get Quote</span>
+                <div className="liquid"></div>
+             
+                </Link> 
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/images/work/horiz2.jpeg"
+      alt="Second slide"
+    />
+ <Link  className="quote-button"to="/contact" style={{ textDecoration: 'none' }}>
+           
+           <span className="quote-text">Get Quote</span>
+           <div className="liquid"></div>
+        
+           </Link> 
+
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+    src="/images/work/p2.jpg"
+      alt="Third slide"
+    />
+ <Link  className="quote-button"to="/contact" style={{ textDecoration: 'none' }}>
+           
+           <span className="quote-text">Get Quote</span>
+           <div className="liquid"></div>
+        
+           </Link> 
+
+  </Carousel.Item>
+</Carousel>
+
           
       
-        </header>
+    </header>
     )
 }
 

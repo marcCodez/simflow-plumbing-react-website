@@ -25,5 +25,28 @@
         flex: 100%; 
         max-width: 100%;
     }
+    .navbar-toggler {
+        text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+
+    }
+    
+    #nav-bar {
+
+        text-align: center;
+        display: block;
+    }
+
 }
+
+// @include media-breakpoint-down(xl) { }
+// @include media-breakpoint-down(lg) {  }
+// @include media-breakpoint-down(md) { }
+// @include media-breakpoint-down(sm) { 
+    
+
+// }
+
+
 
