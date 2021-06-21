@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col, Button} from 'react-bootstrap';
 
 function FooterShortcut() {
     return (
@@ -40,7 +40,8 @@ We have over 10 years of experience in the plumbing & gas industry. We guarantee
                 <div className="footer-contact d-flex flex-column justify-content-center align-items-center mb-4">
                             <p>Nicholas Simler | Founder</p>
                     <p> <span> <i className='fa fa-phone'/> </span> 0406 300 310</p>
-                            <button className="book-now">Book Now</button>
+                            
+                            <Button className="enquire-button">Book Now</Button>
                 </div>
 
                 <div className="socials d-flex flex-column justify-content-center align-items-center">

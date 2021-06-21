@@ -8,7 +8,7 @@ function Services() {
         <Container fluid className="py-5">
              <h1 className="text-center">Our Services</h1>
             <div className="underline-b"></div>
-            <div className="services" >
+            <Container className="services" >
 
         
             <Row>
@@ -17,7 +17,7 @@ function Services() {
                 <NavLink exact to="/contact">
                     <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p19.jpeg
-                        " alt="" />
+                        " alt="" fluid/>
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                         Same Day Services
@@ -271,10 +271,7 @@ function Services() {
                 </Col>
             </Row>
               
-      
-                
-
-            </div>
+            </Container>
 
 
 

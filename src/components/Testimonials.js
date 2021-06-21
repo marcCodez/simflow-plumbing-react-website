@@ -28,8 +28,8 @@ function Testimonials() {
 </Card>
           </Col>
 
-          <Col xs={12} md={4}>
-          <Card>
+          <Col xs={12} md={4} className="card2">
+          <Card >
   <Card.Body>
     <Card.Title className="name">Daniel</Card.Title>
     <div className="stars">
@@ -47,7 +47,7 @@ function Testimonials() {
 </Card>
           </Col>
 
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="card3">
             <Card >
   <Card.Body>
     <Card.Title className="name">Anthony</Card.Title>
