@@ -24,10 +24,10 @@ function NavigationBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                   <Nav className="">
-                  <NavLink exact to="/" className="nav-links">Home</NavLink>
-                    <NavLink exact to="about" className="nav-links">About</NavLink>
-                    <NavLink exact to="services" className="nav-links">Services</NavLink>
-                    <NavLink exact to="/contact" className="nav-links">Contact</NavLink>
+                  <NavLink exact to="/" className="nav-links" activeClassName="is-active" exact={true}>Home</NavLink>
+                    <NavLink exact to="/about" className="nav-links" activeClassName="is-active">About</NavLink>
+                    <NavLink exact to="/services" className="nav-links" activeClassName="is-active">Services</NavLink>
+                    <NavLink exact to="/contact" className="nav-links" activeClassName="is-active">Contact</NavLink>
                 
                   </Nav>
                 </Navbar.Collapse>

@@ -17,7 +17,7 @@ function Services() {
                 <NavLink exact to="/contact">
                     <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p19.jpeg
-                        " alt="" fluid/>
+                        " alt=""/>
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                         Same Day Services

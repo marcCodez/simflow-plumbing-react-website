@@ -52,7 +52,10 @@ body {
     // padding: 1rem;
     color: white;
 
-
+.is-active{
+    background: $main-color;
+    border-radius: 5px;
+}
 
 
 //    .nav-menu {
@@ -325,6 +328,8 @@ body {
     z-index: 10;
     background-color: #ccc;
 
+
+
     // display: grid;
     // grid-template-areas: 
     //     "logo header1 header2"
@@ -357,10 +362,13 @@ body {
   
 
     .useful-links {
+        .is-active {
+            color: white;
+        }
         a {
             text-decoration: none;
             color: black;
-            margin-bottom: 1.3rem;
+            margin-bottom: 2rem;
             font-size: 0.8rem;
 
         &:hover {

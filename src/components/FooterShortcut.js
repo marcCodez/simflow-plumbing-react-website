@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Container, Row, Col, Button} from 'react-bootstrap';
 
 function FooterShortcut() {
@@ -27,11 +27,10 @@ We have over 10 years of experience in the plumbing & gas industry. We guarantee
                 {/* Quick Links */}
                     <h4 className="footer-heading text-center">Useful Links</h4>
                     <div className="useful-links d-flex flex-column justify-content-center align-items-center">
-                    <Link>Home</Link>
-                    <Link>About</Link>
-                    <Link>Services</Link>
-                    <Link>Promotions</Link>
-                    <Link>Contact</Link>
+                    <NavLink to="/" exact={true} activeClassName="is-active">Home</NavLink>
+                    <NavLink to="/about" activeClassName="is-active">About</NavLink>
+                    <NavLink to="/services" activeClassName="is-active">Services</NavLink>
+                    <NavLink to="/contact" activeClassName="is-active">Contact</NavLink>
                     </div>
                 </Col>
                 <Col xs={12} sm={12} md={3} lg={3}>
