@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function HeaderContent() {
     return (
- <header id=""> 
+ <header id="header-jumbotron"> 
            
             {/* <Carousel id="header-carousel"  interval="3000">
 
