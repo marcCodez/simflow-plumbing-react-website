@@ -37,7 +37,7 @@ function HeaderContent() {
                 </a>
                 </Link> */}
 
-<Carousel id="header-carousel" fade>
+<Carousel id="header-carousel" >
   <Carousel.Item>
     <img
       className="d-block w-100"

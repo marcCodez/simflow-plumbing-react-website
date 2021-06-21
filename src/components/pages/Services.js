@@ -13,7 +13,7 @@ function Services() {
         
             <Row>
      
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card" >
                 <NavLink exact to="/contact">
                     <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p19.jpeg
@@ -31,7 +31,7 @@ function Services() {
        
                 </Col>
      
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card" >
                 <NavLink exact to="/contact">
                          <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p21.jpeg
@@ -48,7 +48,7 @@ function Services() {
                     </Card>
                     </NavLink>
                 </Col>
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p12.jpeg
@@ -65,7 +65,7 @@ function Services() {
                     </Card>
                     </NavLink>
                 </Col>
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p5.jpg
@@ -83,7 +83,7 @@ function Services() {
                     </NavLink>
                 </Col>
 
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p18.jpg
@@ -104,7 +104,7 @@ function Services() {
                
      
           
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p17.jpeg
@@ -121,7 +121,7 @@ function Services() {
                 </Card>
                 </NavLink>
                     </Col>
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p8.jpg
@@ -139,7 +139,7 @@ function Services() {
                 </Card>
                 </NavLink>
                 </Col>
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p13.jpeg
@@ -157,7 +157,7 @@ function Services() {
                 </NavLink>
             
                 </Col>
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p15.jpeg
@@ -177,7 +177,7 @@ function Services() {
                 </Col>
          
  
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p10.jpg
@@ -195,7 +195,7 @@ function Services() {
                 
                 </NavLink>
                 </Col>
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                     <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p11.jpeg
@@ -213,7 +213,7 @@ function Services() {
                 </NavLink>
 
                 </Col>
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                     
@@ -232,7 +232,7 @@ function Services() {
                  
                 </NavLink>
                 </Col>
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p7.jpg
@@ -251,7 +251,7 @@ function Services() {
                 </NavLink>
                 </Col>
                  
-                <Col xs={6} md={4} lg={3}>
+                <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/horiz3.jpeg

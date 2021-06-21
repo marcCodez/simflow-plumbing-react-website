@@ -24,7 +24,7 @@ function Promotions() {
 
             <Row >
                 <Col className="d-flex justify-content-center" xs={12} md={6}>
-                <Coupon image="/images/plumb1.jpg" discount="20% Off  - Pensioners Discount - 20% Off"/>
+                <Coupon image="/images/plumb1.jpg" discount="20% Off Pensioners Discount"/>
                 </Col>
                 <Col className="d-flex justify-content-center" xs={12} md={6}>
                 <Coupon image="/images/plumb3.jpeg" discount="Unblock drains from $99"/>
