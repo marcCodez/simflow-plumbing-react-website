@@ -23,7 +23,7 @@ function Contact() {
                                            className="p-3"
                     name='contact' 
                     method='post' 
-                    data-netlify='true' 
+                   netlify 
                     onSubmit='submit'
                     action='/success'
                     data-netlify-honeypot='bot-field'
