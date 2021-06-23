@@ -18,15 +18,17 @@ function Contact() {
                                     </div>
                                 </Col>
                             </Row>
-                            <Form 
-                                className="p-3"
-                                name="contact" 
-                                method="post" 
-                                data-netlify="true" 
-                                onSubmit="submit"
-                                data-netlify-honeypot='bot-field'
-                                >
-                                    <Form.Control type="hidden" name="form-name" value="contact"/>
+                   
+                                        <form 
+                                           className="p-3"
+                    name='contact' 
+                    method='post' 
+                    data-netlify='true' 
+                    onSubmit='submit'
+                    action='/success'
+                    data-netlify-honeypot='bot-field'
+                    >
+                                  <input type='hidden' name='form-name' value='contact' />
                                     <div hidden>
                             <input name="bot-field"/>
                         </div>
@@ -66,7 +68,7 @@ function Contact() {
                                      </Button>
                                     </Col>
                                 </Form.Row>
-                            </Form>
+                            </form>
                             
                         </Card.Body>
                         </Card>
