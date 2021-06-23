@@ -20,12 +20,16 @@ function Contact() {
                             </Row>
                             <Form 
                                 className="p-3"
-                                name="contact v1" 
+                                name="contact" 
                                 method="post" 
                                 data-netlify="true" 
                                 onSubmit="submit"
+                                data-netlify-honeypot='bot-field'
                                 >
-                                    <Form.Control type="hidden" name="form-name" value="contact v1"/>
+                                    <Form.Control type="hidden" name="form-name" value="contact"/>
+                                    <div hidden>
+                            <input name="bot-field"/>
+                        </div>
                             <p className="text-center font-weight-bold">Alternatively call Nicholas on 0406 300 310</p>
                             <Form.Row className="my-5">
                                 <Col lg={6}>
@@ -56,6 +60,7 @@ function Contact() {
 
                                 <Form.Row className="pt-4">
                                     <Col lg={12} className="d-flex justify-content-end">
+                                    <div data-netlify-recaptcha='true'></div>
                                     <Button className="form-btn" type="submit">
                                          Submit
                                      </Button>
