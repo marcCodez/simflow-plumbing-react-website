@@ -18,31 +18,38 @@ function Contact() {
                                     </div>
                                 </Col>
                             </Row>
-                            <Form className="p-3">
+                            <Form 
+                                className="p-3"
+                                name="contact v1" 
+                                method="post" 
+                                data-netlify="true" 
+                                onSubmit="submit"
+                                >
+                                    <Form.Control type="hidden" name="form-name" value="contact v1"/>
                             <p className="text-center font-weight-bold">Alternatively call Nicholas on 0406 300 310</p>
                             <Form.Row className="my-5">
                                 <Col lg={6}>
-                                <Form.Control required className="effect-1" type="text" placeholder="Full name*" />
+                                <Form.Control required name="full-name" className="effect-1" type="text" placeholder="Full name*" />
                                 <span className="focus-border"></span>
                                 </Col>
                                 <Col lg={6}>
-                                <Form.Control required className="effect-1" type="tel" placeholder="Phone Number*" />
+                                <Form.Control required name="phone-number" className="effect-1" type="tel" placeholder="Phone Number*" />
                                 <span className="focus-border"></span>
                                 </Col>
                                 </Form.Row>
                                 <Form.Row className="pb-4">
                                 <Col lg={6}>
-                                <Form.Control required className="effect-1" type="email" placeholder="Email Address*" />
+                                <Form.Control required name="email" className="effect-1" type="email" placeholder="Email Address*" />
                                 <span className="focus-border"></span>
                                 </Col>
                                 <Col lg={6}>
-                                <Form.Control required className="effect-1" type="text" placeholder="Suburb*" />
+                                <Form.Control required name="suburb" className="effect-1" type="text" placeholder="Suburb*" />
                                 <span className="focus-border"></span>
                                 </Col>
                                 </Form.Row>
                                 <Form.Row className="pt-5">
                                     <Col lg={12}>
-                                    <Form.Control className="effect-1" as="textarea" rows={3} placeholder="Type Your Message"/>
+                                    <Form.Control name="message" className="effect-1" as="textarea" rows={3} placeholder="Type Your Message"/>
                                     <span className="focus-border"></span>
                                     </Col>
                                 </Form.Row>
