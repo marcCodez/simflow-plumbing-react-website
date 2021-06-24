@@ -11,7 +11,7 @@ function Services() {
             <Container className="services" >
 
         
-            <Row>
+            <Row className="card-services">
      
                 <Col xs={6} md={4} lg={3} className="service-card" >
                 <NavLink exact to="/contact">

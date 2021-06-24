@@ -207,6 +207,12 @@ body {
     border-radius: 5px;
     height: 2.3rem;
     width: 9rem;
+
+    &:hover {
+        background-color: white!important;
+        color: $main-color!important;
+       
+    }
     
 }
 
@@ -222,7 +228,7 @@ body {
     }
 
     .coupon {
-        border: 5px dotted $main-color; /* Dotted border */
+        border: 7px solid $main-color; /* Dotted border */
         border-radius: 15px; /* Rounded border */
         max-width: 450px;
         z-index: 1;
@@ -357,19 +363,19 @@ body {
     .footer-about {
         width: 500px;
         line-height: 1.6rem;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
   
 
     .useful-links {
         .is-active {
-            color: white;
+            color: $main-color;
         }
         a {
             text-decoration: none;
             color: black;
             margin-bottom: 2rem;
-            font-size: 0.8rem;
+            font-size: 1rem;
 
         &:hover {
             color: white;
@@ -381,12 +387,7 @@ body {
 
 
     .footer-contact{
-        font-size: 0.8rem;
-        
-    
-    }
-
-    .socials {
+        font-size: 1rem;
         a i {
             color: $main-color;
 
@@ -394,7 +395,11 @@ body {
                 color: white;
             }
         }
+        
+    
     }
+
+
 }
 .footer-container {
     background: black;
@@ -461,6 +466,12 @@ body {
     border-radius: 5px;
     height: 2.3rem;
     width: 9rem;
+
+    &:hover {
+        background-color: white!important;
+        color: $main-color!important;
+       
+    }
 }
 
 // Success page

@@ -50,7 +50,7 @@ function Contact() {
                                 <span className="focus-border"></span>
                                 </Col>
                                 </Form.Row>
-                                <Form.Row className="pt-5">
+                                <Form.Row className="pt-4">
                                     <Col lg={12}>
                                     <Form.Control name="message" className="effect-1" as="textarea" rows={3} placeholder="Type Your Message"/>
                                     <span className="focus-border"></span>

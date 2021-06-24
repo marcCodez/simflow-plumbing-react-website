@@ -41,20 +41,18 @@ We have over 10 years of experience in the plumbing & gas industry. We guarantee
                     <p> <span> <i className='fa fa-phone'/> </span> 0406 300 310</p>
                             
                             <Button className="enquire-button">Book Now</Button>
-                </div>
-
-                <div className="socials d-flex flex-column justify-content-center align-items-center">
-                <h4 className="footer-heading text-center">Social Media</h4>
-                <a 
+                            <a 
                         className='socials-link'
                         href='https://www.facebook.com/Simflowplumbing0'
                         to='/'
                         target='_blank'
                         aria-label='Facebook'
                         >
-                        <i className='fa fa-facebook-square'/>
+                        <i className='fa fa-facebook-square fa-3x mt-4'/>
                     </a>
                 </div>
+
+           
                 </Col>
             </Row>
            
