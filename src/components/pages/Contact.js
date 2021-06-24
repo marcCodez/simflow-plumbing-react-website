@@ -29,6 +29,7 @@ function Contact() {
                                     <Form.Control type="hidden" name="form-name" value="contact"/>
                
                             <p className="text-center font-weight-bold">Alternatively call Nicholas on 0406 300 310</p>
+              
                             <Form.Row className="my-5">
                                 <Col lg={6}>
                                 <Form.Control required name="full-name" className="effect-1" type="text" placeholder="Full name*" />
