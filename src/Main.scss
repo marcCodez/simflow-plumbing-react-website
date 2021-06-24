@@ -211,7 +211,7 @@ body {
     &:hover {
         background-color: white!important;
         color: $main-color!important;
-       
+       border: 2px solid $main-color
     }
     
 }
@@ -470,7 +470,7 @@ body {
     &:hover {
         background-color: white!important;
         color: $main-color!important;
-       
+       border: 2px solid $main-color;
     }
 }
 
