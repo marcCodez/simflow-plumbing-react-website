@@ -51,7 +51,7 @@ function Services() {
                 <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
-                        <Card.Img className="card-img" variant="top"  src="/images/work/p12.jpeg
+                        <Card.Img className="card-img" variant="top"  src="/images/gas.jpeg
                         " alt="" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
@@ -68,7 +68,7 @@ function Services() {
                 <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
-                        <Card.Img className="card-img" variant="top"  src="/images/work/p5.jpg
+                        <Card.Img className="card-img" variant="top"  src="/images/burst.jpeg
                         " alt="" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
@@ -124,7 +124,7 @@ function Services() {
                 <Col xs={6} md={4} lg={3} className="service-card">
                 <NavLink exact to="/contact">
                 <Card className="service">
-                        <Card.Img className="card-img" variant="top" src="/images/work/p8.jpg
+                        <Card.Img className="card-img" variant="top" src="/images/quote.jpeg
                         " alt="" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
@@ -217,7 +217,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                     
-                        <Card.Img className="card-img" variant="top" src="/images/services/cctv.jpg
+                        <Card.Img className="card-img" variant="top" src="/images/camera.jpeg
                         " alt="" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
