@@ -19,7 +19,7 @@ function About() {
 <p >At Simflow, we are always striving to  learn and improve through continued training and growth of our workers. We are dedicated to the continuous development of our people skills and plumbing knowledge to ensure we make our mark in the ever changing and developing plumbing industry. </p>
 </div>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} className="d-flex flex-column align-items-center">
                     
                 <img src="/images/work/p7.jpg" className="about-image" />
                 <img src="/images/work/p9.jpg" className="about-image-2" />
