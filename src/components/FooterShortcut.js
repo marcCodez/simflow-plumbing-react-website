@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { Container, Row, Col, Button} from 'react-bootstrap';
+import  Link  from 'react-router-dom/Link';
 
 function FooterShortcut() {
     return (
@@ -40,7 +41,7 @@ We have over 10 years of experience in the plumbing & gas industry. We guarantee
                             <p>Nicholas Simler | Founder</p>
                     <p> <span> <i className='fa fa-phone'/> </span> 0406 300 310</p>
                             
-                            <Button className="enquire-button">Book Now</Button>
+                    <Link to="/contact">  <Button className="enquire-button">Book Now</Button></Link>
                             <a 
                         className='socials-link'
                         href='https://www.facebook.com/Simflowplumbing0'

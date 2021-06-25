@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
+import  Link  from 'react-router-dom/Link';
 
 function Coupon(props) {
     return (
@@ -7,7 +8,7 @@ function Coupon(props) {
             <img src={props.image} />
             <div className="coupon-container">
                 <h2>{props.discount}</h2>
-                <Button className="enquire-button">Enquire Now</Button>
+               <Link to="/contact"><Button className="enquire-button">Enquire Now</Button></Link> 
             </div>
         </figure>
     )
