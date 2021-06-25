@@ -39,7 +39,6 @@
     display: inline-block;
     margin: 10px 0;
 
-
     }
     
     #nav-bar {
@@ -66,6 +65,25 @@
 
 }
 
+@media screen and (max-width: 480px) {
+    .logo {
+        margin-left: inherit;
+    }
+
+    .footershortcut-container .footer-about {
+        width: inherit;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .navbar-brand {
+        margin-right: inherit;
+    }
+    .logo {
+        width: inherit;
+    }
+}
 
 
 // @include media-breakpoint-down(xl) { }
