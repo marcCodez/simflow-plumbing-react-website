@@ -6,7 +6,7 @@ function Footer() {
         <>
         <FooterShortcut/>
         <footer className="footer-container">
-            <p>© Copyright 2021 | All Rights Reserved</p>
+            <p>© lastcodebender 2021 | All Rights Reserved</p>
             <p className="abn">ABN 71 236 584 323</p>
             
         </footer>
