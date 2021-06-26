@@ -6,6 +6,7 @@ import {Nav, Navbar} from 'react-bootstrap';
 
 // IMPLEMENT BOOTSTRAP RESPONSIVENESS
 function NavigationBar() {
+  
     return (
                 // <nav id="nav-bar">
                 //      <img src="/images/logo.png" className="logo" />
