@@ -13,7 +13,7 @@ function FooterShortcut() {
                 {/* Logo and short description */}
                 <div className="d-flex flex-column justify-content-center align-items-center">
                     <div className="logo-class">
-                <img src="/images/logo-black.png" className="logo-black img-fluid"/>
+                <img src="/images/logo-black.png" className="logo-black img-fluid" alt="simflow plumbing footer shortcut logo"/>
                 </div>
               
             <p className="footer-about text-center">Simflow Plumbing provides a fully licensed and insured 24/7 plumbing service for the Greater Sydney region. We offer a variety of indoor and outdoor home plumbing services evolving around maintenance, renovations, house extensions and more! 
@@ -27,7 +27,7 @@ We have over 10 years of experience in the plumbing & gas industry. We guarantee
                 <Col xs={12} sm={12} md={3} lg={3}>
                 {/* Quick Links */}
                     <h4 className="footer-heading text-center">Useful Links</h4>
-                    <div className="useful-links d-flex flex-column justify-content-center align-items-center">
+                    <div className="useful-links d-flex flex-column justify-content-center align-items-center" role="presentation">
                     <NavLink to="/" exact={true} activeClassName="is-active">Home</NavLink>
                     <NavLink to="/about" activeClassName="is-active">About</NavLink>
                     <NavLink to="/services" activeClassName="is-active">Services</NavLink>

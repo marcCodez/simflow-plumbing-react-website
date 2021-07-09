@@ -32,27 +32,32 @@ function Contact() {
               
                             <Form.Row className="my-5">
                                 <Col lg={6}>
-                                <Form.Control required name="full-name" className="effect-1" type="text" placeholder="Full name*" />
+                                    <Form.Label>Full Name*</Form.Label>
+                                <Form.Control required name="full-name" className="effect-1" type="text" />
                                 <span className="focus-border"></span>
                                 </Col>
                                 <Col lg={6}>
-                                <Form.Control required name="phone-number" className="effect-1" type="tel" placeholder="Phone Number*" />
+                                <Form.Label>Phone Number*</Form.Label>
+                                <Form.Control required name="phone-number" className="effect-1" type="tel" />
                                 <span className="focus-border"></span>
                                 </Col>
                                 </Form.Row>
                                 <Form.Row className="pb-4">
                                 <Col lg={6}>
-                                <Form.Control required name="email" className="effect-1" type="email" placeholder="Email Address*" />
+                                <Form.Label>Email Address*</Form.Label>
+                                <Form.Control required name="email" className="effect-1" type="email" />
                                 <span className="focus-border"></span>
                                 </Col>
                                 <Col lg={6}>
-                                <Form.Control required name="suburb" className="effect-1" type="text" placeholder="Suburb*" />
+                                <Form.Label>Suburb*</Form.Label>
+                                <Form.Control required name="suburb" className="effect-1" type="text"  />
                                 <span className="focus-border"></span>
                                 </Col>
                                 </Form.Row>
                                 <Form.Row className="pt-4">
                                     <Col lg={12}>
-                                    <Form.Control name="message" className="effect-1" as="textarea" rows={3} placeholder="Type Your Message"/>
+                                    <Form.Label>Message</Form.Label>
+                                    <Form.Control name="message" className="effect-1" as="textarea" rows={3}/>
                                     <span className="focus-border"></span>
                                     </Col>
                                 </Form.Row>

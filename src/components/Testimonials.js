@@ -12,8 +12,8 @@ function Testimonials() {
             <Col xs={12} md={4}>
             <Card>
   <Card.Body>
-    <Card.Title className="name">Sandra</Card.Title>
-    <div className="stars">
+    <Card.Title aria-label="first testimonial name" className="name">Sandra</Card.Title>
+    <div className="stars" role="presentation">
                 <i className="fa fa-star"></i>
                 <i className="fa fa-star"></i>
                 <i className="fa fa-star"></i>
@@ -31,8 +31,8 @@ function Testimonials() {
           <Col xs={12} md={4} className="card2">
           <Card >
   <Card.Body>
-    <Card.Title className="name">Daniel</Card.Title>
-    <div className="stars">
+    <Card.Title className="name" aria-label="second testimonial name">Daniel</Card.Title>
+    <div className="stars" role="presentation">
                 <i className="fa fa-star"></i>
                 <i className="fa fa-star"></i>
                 <i className="fa fa-star"></i>
@@ -50,8 +50,8 @@ function Testimonials() {
           <Col xs={12} md={4} className="card3">
             <Card >
   <Card.Body>
-    <Card.Title className="name">Anthony</Card.Title>
-    <div className="stars">
+    <Card.Title className="name" aria-label="third testimonial name">Anthony</Card.Title>
+    <div className="stars" role="presentation">
                 <i className="fa fa-star"></i>
                 <i className="fa fa-star"></i>
                 <i className="fa fa-star"></i>

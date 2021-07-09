@@ -21,8 +21,8 @@ function About() {
                     </Col>
                     <Col xs={12} md={6} className="d-flex flex-column align-items-center">
                     
-                <img src="/images/work/p7.jpg" className="about-image" />
-                <img src="/images/work/p9.jpg" className="about-image-2" />
+                <img src="/images/work/p7.jpg" className="about-image" alt="simflow work of a hot water system"/>
+                <img src="/images/work/p9.jpg" className="about-image-2" alt="simflow work of water tank"/>
                     </Col>
                 </Row>
   

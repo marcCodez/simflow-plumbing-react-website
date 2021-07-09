@@ -42,7 +42,7 @@ function HeaderContent() {
     <img
       className="d-block w-100"
       src="/images/work/horiz1.jpeg"
-      alt="First slide"
+      alt="First slide, modern kitchen by simflow plumbing"
     />
     <Link  className="quote-button"to="/contact" style={{ textDecoration: 'none' }}>
            
@@ -55,7 +55,7 @@ function HeaderContent() {
     <img
       className="d-block w-100"
       src="/images/work/horiz2.jpeg"
-      alt="Second slide"
+      alt="Second slide, modern bathroom with 2 sinks by simflow"
     />
  <Link  className="quote-button"to="/contact" style={{ textDecoration: 'none' }}>
            
@@ -69,7 +69,7 @@ function HeaderContent() {
     <img
       className="d-block w-100"
     src="/images/work/p2.jpg"
-      alt="Third slide"
+      alt="Third slide, modern bathroom sink"
     />
  <Link  className="quote-button"to="/contact" style={{ textDecoration: 'none' }}>
            

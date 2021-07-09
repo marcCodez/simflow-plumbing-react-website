@@ -24,10 +24,10 @@ function Promotions() {
 
             <Row >
                 <Col className="d-flex justify-content-center" xs={12} md={6}>
-                <Coupon image="/images/plumb1.jpg" discount="20% Off Pensioners Discount"/>
+                <Coupon image="/images/plumb1.jpg" discount="20% Off Pensioners Discount" alt="first discount picture, fixing pipes"/>
                 </Col>
                 <Col className="d-flex justify-content-center" xs={12} md={6}>
-                <Coupon image="/images/plumb3.jpeg" discount="Unblock drains from $99"/>
+                <Coupon image="/images/plumb3.jpeg" discount="Unblock drains from $99" alt="second discount picture, water drain"/>
                 </Col>
             </Row>
             </Container>

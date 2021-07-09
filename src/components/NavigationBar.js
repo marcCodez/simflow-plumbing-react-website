@@ -21,10 +21,10 @@ function NavigationBar() {
                 //         </ul>
                 // </nav>
                 <Navbar id="nav-bar" expand="lg">
-                <Navbar.Brand> <NavLink exact to="/"  exact={true}><img src="/images/logo.png" className="logo" /></NavLink></Navbar.Brand>
+                <Navbar.Brand> <NavLink exact to="/"  exact={true}><img src="/images/logo.png" className="logo" alt="simflow plumbing nav bar logo"/></NavLink></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                  <Nav className="">
+                  <Nav role="presentation">
                   <NavLink exact to="/" className="nav-links" activeClassName="is-active" exact={true}>Home</NavLink>
                     <NavLink exact to="/about" className="nav-links" activeClassName="is-active">About</NavLink>
                     <NavLink exact to="/services" className="nav-links" activeClassName="is-active">Services</NavLink>

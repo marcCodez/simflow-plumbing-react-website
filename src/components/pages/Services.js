@@ -17,7 +17,7 @@ function Services() {
                 <NavLink exact to="/contact">
                     <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p19.jpeg
-                        " alt=""/>
+                        " alt="pipe work"/>
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                         Same Day Services
@@ -35,7 +35,7 @@ function Services() {
                 <NavLink exact to="/contact">
                          <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p21.jpeg
-                        " alt="" />
+                        " alt="interconnected pipes" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                         Leaking Pipes
@@ -52,7 +52,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/gas.jpeg
-                        " alt="" />
+                        " alt="simflow gas work" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                        All Gas Works
@@ -69,7 +69,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/burst.jpeg
-                        " alt="" />
+                        " alt="simflow burst pipes in action" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                         Burst Pipes
@@ -87,7 +87,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p18.jpg
-                        " alt="" />
+                        " alt="water draining in sink" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                        Blocked Drains
@@ -108,7 +108,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p17.jpeg
-                        " alt="" />
+                        " alt="roof" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                         Roof Leaks
@@ -125,7 +125,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/quote.jpeg
-                        " alt="" />
+                        " alt="free quotes sign" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                       Free Quotes
@@ -143,7 +143,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p13.jpeg
-                        " alt="" />
+                        " alt="filtration system" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                        $0 Call Out Fee
@@ -161,7 +161,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p15.jpeg
-                        " alt="" />
+                        " alt="water tap" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                        Leaking Taps
@@ -181,7 +181,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p10.jpg
-                        " alt="" />
+                        " alt="a toilet" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                        Leaking Toilets
@@ -199,7 +199,7 @@ function Services() {
                 <NavLink exact to="/contact">
                     <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p11.jpeg
-                        " alt="" />
+                        " alt="shower head" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                         Leaking Showers
@@ -218,7 +218,7 @@ function Services() {
                 <Card className="service">
                     
                         <Card.Img className="card-img" variant="top" src="/images/camera.jpeg
-                        " alt="" />
+                        " alt="camera inspection" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                         CCTV Camera Inspections
@@ -236,7 +236,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p7.jpg
-                        " alt="" />
+                        " alt="hot water system" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                     Hot Water System Repairs and Replacements 
@@ -255,7 +255,7 @@ function Services() {
                 <NavLink exact to="/contact">
                 <Card className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/horiz3.jpeg
-                        " alt="" />
+                        " alt="rennovated kitchen" />
                         <Card.Body> 
                     <Card.Text className="text-center service-text">
                         Bathroom and Kitchen Renovations
