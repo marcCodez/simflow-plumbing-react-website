@@ -1,24 +1,29 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Container, Card, Row, Col} from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Testimonials() {
+  useEffect(() => {
+    AOS.init({ duration: 3000});
+}, [])
     return (
         <Container fluid className="testimonials">
             <Container>
-            <h1 className="heading">Testimonials</h1>
-            <div className="underline"></div>
+            <h1 data-aos="fade-left" className="heading">Testimonials</h1>
+            <div data-aos="fade-left" className="underline"></div>
 
             <Row>
             <Col xs={12} md={4}>
-            <Card>
+            <Card data-aos="fade-left">
   <Card.Body>
     <Card.Title aria-label="first testimonial name" className="name">Sandra</Card.Title>
     <div className="stars" role="presentation">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
               </div>
     {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
     <Card.Text>
@@ -29,15 +34,15 @@ function Testimonials() {
           </Col>
 
           <Col xs={12} md={4} className="card2">
-          <Card >
+          <Card data-aos="fade-left">
   <Card.Body>
     <Card.Title className="name" aria-label="second testimonial name">Daniel</Card.Title>
     <div className="stars" role="presentation">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
               </div>
     {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
     <Card.Text>
@@ -48,15 +53,15 @@ function Testimonials() {
           </Col>
 
           <Col xs={12} md={4} className="card3">
-            <Card >
+            <Card data-aos="fade-left">
   <Card.Body>
     <Card.Title className="name" aria-label="third testimonial name">Anthony</Card.Title>
     <div className="stars" role="presentation">
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
+                <i className="fa fa-star" alt="star"></i>
               </div>
     {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
     <Card.Text>

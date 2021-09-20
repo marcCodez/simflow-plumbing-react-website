@@ -30,7 +30,7 @@ function Contact() {
                
                             <p className="text-center font-weight-bold">Alternatively call Nicholas on 0406 300 310</p>
               
-                            <Form.Row className="my-5">
+                            <Form.Row className="pt-5">
                                 <Col lg={6}>
                                     <Form.Label>Full Name*</Form.Label>
                                 <Form.Control required name="full-name" className="effect-1" type="text" />
@@ -42,7 +42,7 @@ function Contact() {
                                 <span className="focus-border"></span>
                                 </Col>
                                 </Form.Row>
-                                <Form.Row className="pb-4">
+                                <Form.Row className="pt-4">
                                 <Col lg={6}>
                                 <Form.Label>Email Address*</Form.Label>
                                 <Form.Control required name="email" className="effect-1" type="email" />

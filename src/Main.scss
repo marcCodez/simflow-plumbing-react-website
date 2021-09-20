@@ -143,11 +143,6 @@ body {
        z-index: 1;
        color: #fff;
        font-size: 18px;
- 
-       
-
-       
-       
    }
 
    &:hover .liquid {
@@ -437,8 +432,8 @@ body {
 
 
 .effect-1 {
-    border: 0 !important;
-    outline: none !important;
+    // border: 0 !important;
+    // outline: none !important;
     width: 100% !important;
     padding: 7px 0 !important;
     border: 1px solid #ccc !important;
@@ -458,7 +453,7 @@ body {
 
 .effect-1:focus ~ .focus-border {
     width: 100%;
-    transition: 0.4s;
+    // transition: 0.4s;
     left:0;
 }
 

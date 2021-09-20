@@ -5,7 +5,7 @@ function About() {
     return (
         <Container fluid id="about" className="text-center py-5">
             <Container>
-                <Row className="justify-content-center">
+                <Row >
                     <Col xs={12} md={6}>
                     <div className="heading">
                         <h1>About Us</h1>

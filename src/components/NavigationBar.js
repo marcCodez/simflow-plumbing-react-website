@@ -21,15 +21,18 @@ function NavigationBar() {
                 //         </ul>
                 // </nav>
                 <Navbar id="nav-bar" expand="lg">
+                 {/* Logo */}
                 <Navbar.Brand> <NavLink exact to="/"  exact={true}><img src="/images/logo.png" className="logo" alt="simflow plumbing nav bar logo"/></NavLink></Navbar.Brand>
+
+                {/* Hamburger icon */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                  <Nav role="presentation">
-                  <NavLink exact to="/" className="nav-links" activeClassName="is-active" exact={true}>Home</NavLink>
+                  {/* Nav Links */}
+                    <Nav role="presentation">
+                    <NavLink exact to="/" className="nav-links" activeClassName="is-active" exact={true}>Home</NavLink>
                     <NavLink exact to="/about" className="nav-links" activeClassName="is-active">About</NavLink>
                     <NavLink exact to="/services" className="nav-links" activeClassName="is-active">Services</NavLink>
                     <NavLink exact to="/contact" className="nav-links" activeClassName="is-active">Contact</NavLink>
-                
                   </Nav>
                 </Navbar.Collapse>
                 
