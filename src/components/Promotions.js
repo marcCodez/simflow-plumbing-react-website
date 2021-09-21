@@ -3,6 +3,7 @@ import Coupon from './Coupon';
 import { Container, Row, Col} from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import plumb1 from '../images/plumb1.jpg';
 
 function Promotions() {
     useEffect(() => {
@@ -31,7 +32,7 @@ function Promotions() {
 
             <Row >
                 <Col data-aos="fade-right"  className="d-flex justify-content-center" xs={12} md={6}>
-                <Coupon image="/images/plumb1.jpg" discount="20% Off Pensioners Discount" alt="first discount picture, fixing pipes"/>
+                <Coupon image={plumb1} discount="20% Off Pensioners Discount" alt="first discount picture, fixing pipes"/>
                 </Col>
                 <Col data-aos="fade-right" className="d-flex justify-content-center" xs={12} md={6}>
                 <Coupon image="/images/plumb3.jpeg" discount="Unblock drains from $99" alt="second discount picture, water drain"/>
