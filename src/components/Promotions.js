@@ -7,9 +7,7 @@ import 'aos/dist/aos.css';
 function Promotions() {
     useEffect(() => {
         AOS.init({ 
-            duration: 5000,
-            once: false,
-            mirror: false
+            duration: 3000
         });
     }, [])
     return (

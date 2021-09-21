@@ -1,13 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react';
 
 import {Button, Card, Container, Row, Col} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Services() {
+    useEffect(() => {
+        AOS.init({ duration: 1000});
+    }, [])
     return (
         <Container fluid className="py-5">
-             <h1 className="text-center">Our Services</h1>
-            <div className="underline-b"></div>
+             <h1 data-aos="zoom-in" className="text-center">Our Services</h1>
+            <div data-aos="zoom-in" className="underline-b"></div>
             <Container className="services" >
 
         
@@ -15,7 +20,7 @@ function Services() {
      
                 <Col xs={12} md={4} lg={3} className="service-card" >
                 <NavLink to="/contact">
-                    <Card className="service">
+                    <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p19.jpeg
                         " alt="pipe work"/>
                         <Card.Body> 
@@ -33,7 +38,7 @@ function Services() {
      
                 <Col xs={12} md={4} lg={3} className="service-card" >
                 <NavLink to="/contact">
-                         <Card className="service">
+                         <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p21.jpeg
                         " alt="interconnected pipes" />
                         <Card.Body> 
@@ -50,7 +55,7 @@ function Services() {
                 </Col>
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/gas.jpeg
                         " alt="simflow gas work" />
                         <Card.Body> 
@@ -67,7 +72,7 @@ function Services() {
                 </Col>
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/burst.jpeg
                         " alt="simflow burst pipes in action" />
                         <Card.Body> 
@@ -85,7 +90,7 @@ function Services() {
 
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top"  src="/images/work/p18.jpg
                         " alt="water draining in sink" />
                         <Card.Body> 
@@ -106,7 +111,7 @@ function Services() {
           
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p17.jpeg
                         " alt="roof" />
                         <Card.Body> 
@@ -123,7 +128,7 @@ function Services() {
                     </Col>
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top" src="/images/quote.jpeg
                         " alt="free quotes sign" />
                         <Card.Body> 
@@ -141,7 +146,7 @@ function Services() {
                 </Col>
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p13.jpeg
                         " alt="filtration system" />
                         <Card.Body> 
@@ -159,7 +164,7 @@ function Services() {
                 </Col>
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p15.jpeg
                         " alt="water tap" />
                         <Card.Body> 
@@ -179,7 +184,7 @@ function Services() {
  
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p10.jpg
                         " alt="a toilet" />
                         <Card.Body> 
@@ -197,7 +202,7 @@ function Services() {
                 </Col>
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                    <Card className="service">
+                    <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p11.jpeg
                         " alt="shower head" />
                         <Card.Body> 
@@ -215,7 +220,7 @@ function Services() {
                 </Col>
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                     
                         <Card.Img className="card-img" variant="top" src="/images/camera.jpeg
                         " alt="camera inspection" />
@@ -234,7 +239,7 @@ function Services() {
                 </Col>
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/p7.jpg
                         " alt="hot water system" />
                         <Card.Body> 
@@ -253,7 +258,7 @@ function Services() {
                  
                 <Col xs={12} md={4} lg={3} className="service-card">
                 <NavLink to="/contact">
-                <Card className="service">
+                <Card data-aos="fade-up" className="service">
                         <Card.Img className="card-img" variant="top" src="/images/work/horiz3.jpeg
                         " alt="rennovated kitchen" />
                         <Card.Body> 

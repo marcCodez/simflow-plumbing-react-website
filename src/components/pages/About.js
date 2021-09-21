@@ -1,12 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function About() {
+    useEffect(() => {
+        AOS.init({ duration: 3000});
+    }, [])
     return (
         <Container fluid id="about" className="text-center py-5">
             <Container>
                 <Row >
-                    <Col xs={12} md={6}>
+                    <Col data-aos="fade-right" xs={12} md={6}>
                     <div className="heading">
                         <h1>About Us</h1>
                         <div className="underline-b"></div>
@@ -21,8 +26,8 @@ function About() {
                     </Col>
                     <Col xs={12} md={6} className="d-flex flex-column align-items-center">
                     
-                <img src="/images/work/p7.jpg" className="about-image" alt="simflow work of a hot water system"/>
-                <img src="/images/work/p9.jpg" className="about-image-2" alt="simflow work of water tank"/>
+                <img data-aos="fade-down" src="/images/work/p7.jpg" className="about-image" alt="simflow work of a hot water system"/>
+                <img data-aos="fade-up" src="/images/work/p9.jpg" className="about-image-2" alt="simflow work of water tank"/>
                     </Col>
                 </Row>
   

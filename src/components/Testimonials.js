@@ -15,7 +15,7 @@ function Testimonials() {
 
             <Row>
             <Col xs={12} md={4}>
-            <Card data-aos="fade-left">
+            <Card data-aos="fade-right">
   <Card.Body>
     <Card.Title aria-label="first testimonial name" className="name">Sandra</Card.Title>
     <div className="stars" role="presentation">
@@ -34,7 +34,7 @@ function Testimonials() {
           </Col>
 
           <Col xs={12} md={4} className="card2">
-          <Card data-aos="fade-left">
+          <Card data-aos="fade-right">
   <Card.Body>
     <Card.Title className="name" aria-label="second testimonial name">Daniel</Card.Title>
     <div className="stars" role="presentation">
@@ -53,7 +53,7 @@ function Testimonials() {
           </Col>
 
           <Col xs={12} md={4} className="card3">
-            <Card data-aos="fade-left">
+            <Card data-aos="fade-right">
   <Card.Body>
     <Card.Title className="name" aria-label="third testimonial name">Anthony</Card.Title>
     <div className="stars" role="presentation">
